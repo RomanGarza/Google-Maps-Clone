@@ -1,13 +1,10 @@
-  @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Monoton&family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Monoton&family=Poppins:wght@500&display=swap");
 
-  body {
-      margin: 0;
-    }
-
-    #map {
-      height: 100vh;
-      width: 100vw;
-    }
+#map {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
 
 *,
 ::after,
@@ -25,11 +22,9 @@ a {
 }
 
 @media screen and (min-width: 800px) {
-  
   body {
     font-size: 1rem;
   }
-
 }
 
 /* section */
@@ -53,15 +48,11 @@ main {
   place-items: center;
 }
 
-/*
-=============== 
-Navbar
-===============
-*/
+/* nav bar styling */
 nav {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);;
-  font-family: 'Poppins', sans-serif;
-  background:lightcoral;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  background: lightcoral;
   color: white;
   line-height: 1.5;
   font-size: 0.875rem;
@@ -97,10 +88,10 @@ nav {
   color: white;
   font-size: 1rem;
   text-transform: capitalize;
-  letter-spacing:  0.1rem;
+  letter-spacing: 0.1rem;
   display: block;
   padding: 0.5rem 1rem;
-  transition:all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .links a:hover {
   background: rgb(231, 169, 169);

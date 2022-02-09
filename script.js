@@ -1,3 +1,4 @@
+// map js
 mapboxgl.accessToken = 'pk.eyJ1Ijoicm9tYW5nYXJ6YSIsImEiOiJja3YwNmJyN3g3amF2MnBtbmd4dWVnNXE2In0.Rob8irjTgeQ7YgXUb83ucQ'
 
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
@@ -30,24 +31,11 @@ function setupMap(center) {
 
 }
 
-// classList - shows/gets all classes
-// contains - checks classList for specific class
-// add - add class
-// remove - remove class
-// toggle - toggles class
-
+// nav bar
 const navToggle = document.querySelector(".nav-toggle");
 const links = document.querySelector(".links");
 
 navToggle.addEventListener("click", function () {
-  // console.log(links.classList);
-  // console.log(links.classList.contains("random"));
-  // console.log(links.classList.contains("links"));
-  // if (links.classList.contains("show-links")) {
-  //   links.classList.remove("show-links");
-  // } else {
-  //   links.classList.add("show-links");
-  // }
   links.classList.toggle("show-links");
 });
 
